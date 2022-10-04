@@ -1,6 +1,7 @@
 #SpeechRecog.python
 #2022-10-02 ver
 #https://prlabhotelshoe.tistory.com/8?category=995004
+
 import speech_recognition as sr
 
 r = sr.Recognizer()
@@ -21,4 +22,9 @@ Txt = r.recognize_google(audio,language = 'ko-KR')
 
 print(Txt)
 f.write(Txt)
-#sys.stdout.close()
+# sys.stdout.close()
+
+
+
+#자 이게 보여야 정상입니다아
+##아니 이게 왜 안되는거야
